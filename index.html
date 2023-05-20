@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Formulários</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<!--OBS: alterei o tamanho e espaçamentos, de forma que ficasse mais parecido com a foto, pois 
+as medidas informadas no figma, fazem o formulário ficar muito pequeno no meu dispositivo. Tentei deixar 
+o mais próximo, visualmente, possivel -->
+
+<body>
+
+    <main>
+        <section class="container">
+            <div class="text">
+                <h1>FICOU COM DÚVIDA? <br>
+                    NOS MANDE UMA MENSAGEM
+                </h1>
+                <p>
+                    Caso tenha ficado com qualquer dúvida, basta nos
+                    mandar uma mensagem e entraremos em contato em
+                    menos de 24h.
+                </p>
+            </div>
+
+
+            <form class="form">
+                <input class="input-form" name="name" type="text"  placeholder="Nome completo *" >
+                <label class="obrigatorio" for="nome">campo obrigatório</label>
+               
+                
+                <input class="input-form"  name="email" type="email" placeholder="Email *" >
+                <label class="obrigatorio" for="email">campo obrigatório</label>
+                
+                <input class="input-form"  name="number" type="number"  placeholder="Telefone *" >
+                <label class="obrigatorio" for="number">campo obrigatório</label>
+                
+                <textarea class="input-form text-area" name="message" style="resize: none" placeholder="Mensagem *"></textarea>
+                <label class="obrigatorio" for="message">campo obrigatório</label>
+
+               <p>*Campos obrigatórios</p>
+
+                <input class="btn" type="submit" name="btn">
+            </form>
+
+
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
