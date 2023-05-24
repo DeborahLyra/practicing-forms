@@ -14,7 +14,7 @@ li {
 body {
     background-image: url(./img/bg-repeat.jpg);
    background-repeat: repeat-x;
-   background-size: 4em;
+   background-size: 5em;
    font-family: 'Roboto', sans-serif;
    font-weight: 400;
    
